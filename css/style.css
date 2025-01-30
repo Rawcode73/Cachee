@@ -192,7 +192,28 @@ h2.title {
 }
 
 .item {
+  width: 400px;
+  height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   border: #ff6833 2px solid;
+}
+
+.img-item {
+  background: url(../images/icons/basket.svg) no-repeat center;
+}
+.img-item2 {
+  background: url(../images/icons/carrot.svg) no-repeat center;
+}
+.img-item3 {
+  background: url(../images/icons/earth.svg) no-repeat center;
+}
+.img-item4 {
+  background: url(../images/icons/hand.svg) no-repeat center;
+}
+
+.item p {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--grey);
 }
