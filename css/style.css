@@ -150,7 +150,7 @@ h2.title {
 .our-services {
   background: #70c0ff url(../images/services-bg.png) no-repeat right;
   background-position: 750px;
-  height: 100vh;
+
   width: 100%;
 }
 
@@ -165,34 +165,37 @@ h2.title {
 }
 
 .services-content {
-  width: 100%;
-  height: 100vh;
+  height: 50vh;
+  width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+
   gap: 20px;
   flex-direction: column;
+  padding-left: 50px;
 }
 .serv-bg {
   display: flex;
   /*width: 100%;
   height: 100vh;*/
   justify-content: flex-end;
-  flex-direction: row-reverse;
+  width: 600px;
+
+  margin-top: 450px;
+  margin-left: 550px;
 }
 
 .serv-bg p {
   display: flex;
+
   color: white;
   font-size: 20px;
   font-weight: 700;
   font-size: 70px;
-  align-items: center;
-  margin: 0 200px;
 }
 
 .item {
-  width: 400px;
+  width: 500px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -201,15 +204,23 @@ h2.title {
 
 .img-item {
   background: url(../images/icons/basket.svg) no-repeat center;
+  width: 100px;
+  border: #262626 2px solid;
 }
 .img-item2 {
   background: url(../images/icons/carrot.svg) no-repeat center;
+  width: 100px;
+  border: #262626 2px solid;
 }
 .img-item3 {
   background: url(../images/icons/earth.svg) no-repeat center;
+  width: 100px;
+  border: #262626 2px solid;
 }
 .img-item4 {
   background: url(../images/icons/hand.svg) no-repeat center;
+  width: 100px;
+  border: #262626 2px solid;
 }
 
 .item p {
