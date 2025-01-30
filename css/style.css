@@ -169,20 +169,15 @@ h2.title {
   width: 50%;
   display: flex;
   justify-content: center;
-
   gap: 20px;
   flex-direction: column;
-  padding-left: 50px;
+  padding: 50px 100px;
 }
 .serv-bg {
   display: flex;
-  /*width: 100%;
-  height: 100vh;*/
+  width: 100%;
+  height: 50vh;
   justify-content: flex-end;
-  width: 600px;
-
-  margin-top: 450px;
-  margin-left: 550px;
 }
 
 .serv-bg p {
