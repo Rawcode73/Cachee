@@ -5,26 +5,27 @@
     <title>Cachee</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
   </head>
   <body>
     <header class="header" id="home">
       <div class="header-nav">
         <a href="/" class="logo">Cachee</a>
         <nav>
-          <ul>
+          <ul class="menu">
             <li><a href="#home">Home</a></li>
-
             <li><a href="#about">About</a></li>
-
-            <li>Service</li>
-
+            <li><a href="#service">Service</a></li>
             <li><a href="#gallery">Gallery</a></li>
-
             <li><a href="#blog">Blog</a></li>
-
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+        <div class="burger" id="burger-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </div>
 
       <div class="header-content">
@@ -94,24 +95,24 @@
 
       <div class="gallery-content">
         <div class="gallery-item" id="a1" >
-            <img src="images/gallery/1.jpg" width="600px"  alt="" />
+            <img class="gallery-image" src="images/gallery/1.jpg" width="600px"  alt="" />
         </div>
         <div class="pic-cont">
             <div class="gallery-item" id="a2" >
-          <img src="images/gallery/2.jpg"  width="300px" height="190px" ></img>
+          <img class="gallery-image" src="images/gallery/2.jpg"  width="300px" height="190px" ></img>
         </div>
 
             <div class="gallery-item" id="a3">
-          <img src="images/gallery/3.jpg"  width="300px" 
+          <img class="gallery-image" src="images/gallery/3.jpg"  width="300px" 
           height="190px"></img>
         </div>
       </div>
 
         <div class="gallery-item" >
-          <img src="images/gallery/4.jpg" class="photo"></img>
+          <img class="gallery-image" src="images/gallery/4.jpg" class="photo"></img>
         </div>
         <div class="gallery-item" >
-          <img src="images/gallery/5.jpg" class="photo"></img>
+          <img class="gallery-image" src="images/gallery/5.jpg" class="photo"></img>
         </div>
       <button >view more</button>
       </div>
@@ -130,7 +131,18 @@
     </div>
       </section>
      </body>
+
      <footer>
-      
+      <span>
+
+        © 2021 Cachee. All rights reserved.
+      </span>
+
+
+      <span>
+        <a href="/" class="logo logo-footer">Cachee</a>
+        </span>
+
+        <span>Made with <spam class="love"> love</spam> by someone</span>
      </footer>
 </html>

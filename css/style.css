@@ -286,3 +286,25 @@ button.color {
   margin-left: 25px;
   background-color: yellowgreen;
 }
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: var(--grey);
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.love {
+  color: orange;
+}
+
+.logo-footer {
+  font-family: var(--font-title);
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
