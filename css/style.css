@@ -74,7 +74,7 @@ a {
 .header-content button {
   padding: 10px 20px;
   background: var(--red);
-  display: relative;
+
   margin-left: 80px;
   color: white;
   border-radius: 2px;
