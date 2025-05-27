@@ -100,7 +100,7 @@ a {
   height: 2px;
   background-color: var(--red);
   position: absolute;
-  top: -40px;
+  top: -70px;
 }
 
 .header-nav li:hover::before {
@@ -330,7 +330,7 @@ footer {
   padding: 0 120px;
 }
 
-.love {
+.By {
   color: orange;
 }
 
